@@ -1,0 +1,30 @@
+h1 {
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#corpo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 15px;
+}
+
+.buttons {
+    width: 49,5%;
+    background-color: dodgerblue;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.buttons:hover {
+    color: black;
+    background-color: darkturquoise;
+}
